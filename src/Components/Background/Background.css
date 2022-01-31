@@ -5,16 +5,21 @@
 
 #overlay {
     position: absolute;
-    z-index: 3;
-    height: 100%;
+    z-index: 2;
+    top: 0;
+    left: 0;
     width: 100%;
+    height: 100%
 }
 
 
 .background1 {
-    height: 100vh;
-    width: 100vw;
-    z-index: -1;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    max-height: 100vh;
+    max-width: 100vw;
     display: inline-flex;
-    overflow-x: hidden;
+    overflow: hidden;
 }
