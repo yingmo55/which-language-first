@@ -1,0 +1,24 @@
+.binary-background {
+    width: 100%;
+    height: 100vh;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+.binary {
+    filter: blur(3px);
+    font-size: 30px;
+    text-align: center;
+    z-index: 1;
+    color: #011826;
+    display: flex;
+    width: 10px;
+    max-height: 100%;
+    padding: 5px;
+    margin: 0 6px;
+    background:linear-gradient(to bottom, #011826, #06414e,  #048ABF, #80e6f1) no-repeat;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+
+}
