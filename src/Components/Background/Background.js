@@ -5,8 +5,8 @@ import BackgroundBinary from '../BackgroundBinary/BackgroundBinary';
 function Background() {
     return(
     <div id='mainBG'>
-        <div id='overlay'></div>
         <div className='background1'>
+        <div id='overlay'></div>
         <BackgroundBinary />
         <BackgroundBinary />
         <BackgroundBinary />
