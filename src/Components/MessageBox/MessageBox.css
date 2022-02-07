@@ -1,6 +1,6 @@
 .message {
     width: 70vw;
-    height: 30vh;
+    min-height: 30vh;
     padding: 20px;
     background-color: rgb(8, 102, 102);
     z-index: 3;

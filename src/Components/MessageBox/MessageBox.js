@@ -7,6 +7,7 @@ function MessageBox(props) {
     return(
         <div className='message' style={props.style}>
             {content}
+            {props.children}
         </div>
     )
 }
