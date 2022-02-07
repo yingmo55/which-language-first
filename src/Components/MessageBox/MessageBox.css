@@ -1,6 +1,15 @@
 .message {
-    width: 40vw;
+    width: 70vw;
     height: 30vh;
-    background-color: darkcyan;
+    padding: 20px;
+    background-color: rgb(8, 102, 102);
     z-index: 3;
+    opacity: 95%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
+
+.message > p {
+    font-size: 1rem;
 }
