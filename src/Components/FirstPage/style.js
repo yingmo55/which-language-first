@@ -9,7 +9,15 @@ const changeSize = {
   
 const zIndex = {
     zIndex: 3,
-    fontSize: '2.5rem'
   }
 
-export const styles = {componentMargin, changeSize, zIndex}
+const buttonStyle = {
+  cursor: 'pointer',
+  ...zIndex,
+  ...componentMargin,
+  borderRadius: '25px',
+  border: 'none',
+  padding: 15,
+}
+
+export const styles = {componentMargin, changeSize, zIndex, buttonStyle}

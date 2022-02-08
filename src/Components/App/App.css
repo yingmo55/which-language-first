@@ -1,3 +1,11 @@
+h1, h2, h3{
+  font-family: 'B612 Mono', monospace;
+}
+
+p, button, a {
+  font-family: 'Noto Sans', sans-serif;
+}
+
 .App {
   text-align: center;
   background-color: rgb(5, 5, 5);
@@ -13,6 +21,20 @@
 
 h1 {
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-family: 'B612 Mono', monospace;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+#startQuiz:hover {
+  background-color: rgb(96, 196, 166);
+  color: white;
+}
+
+#startQuiz:active {
+  background-color: rgb(67, 100, 150);
+  color: white;
 }
