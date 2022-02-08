@@ -1,6 +1,16 @@
 .message {
-    width: 40vw;
-    height: 30vh;
-    background-color: darkcyan;
+    width: 70vw;
+    min-height: 30vh;
+    padding: 20px;
+    background-color: rgb(8, 102, 102);
     z-index: 3;
+    opacity: 95%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message > p {
+    font-size: 1rem;
 }

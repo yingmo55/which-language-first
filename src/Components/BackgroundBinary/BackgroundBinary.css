@@ -1,5 +1,5 @@
 .binary-background {
-    width: 100%;
+    min-width: 420px;
     height: 100vh;
     display: inline-flex;
     overflow: hidden;
@@ -20,5 +20,5 @@
     -webkit-text-fill-color: transparent;
     background-clip: text;
     -webkit-background-clip: text;
-
+    overflow: hidden;
 }
