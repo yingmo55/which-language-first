@@ -7,10 +7,11 @@ import Quiz from "../../Components/Quiz/Quiz";
 function QuizContainer(props) {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [result, setResult] = useState('');
-    let question = <p> {quizQuestions[currentQuestion].question} </p>
+    let question = <h2> {quizQuestions[(currentQuestion)].question} </h2>
     let choices = quizQuestions[currentQuestion].choices;
 
     const changeQuestion = (value) => {
+        console.log(`changeQuestion: ${value}`)
         if(isNaN(parseInt(value))){
             setResult(value)
         } else {
@@ -23,7 +24,7 @@ function QuizContainer(props) {
     }
 
     useEffect(()=> {
-        question = <p> {quizQuestions[currentQuestion].question} </p>
+        question = <h2> {quizQuestions[currentQuestion].question} </h2>
     }, [currentQuestion]);
 
     let quiz = (
