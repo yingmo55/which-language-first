@@ -24,6 +24,10 @@ function OptionsContainer(props) {
             case "web": 
                 jobOrStartUp ? changeQuestion(choice[0]) : changeQuestion(choice[2]);
                 break;
+            case "Yes":
+                setJobOrStartUp(false);
+                changeQuestion(choice[0]);
+                break;
             default:
                 changeQuestion(choice);
                 break;
