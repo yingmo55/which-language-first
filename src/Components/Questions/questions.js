@@ -131,6 +131,7 @@ export const quizQuestions = [
 
 export const results = {
     python: "Python",
+    pythonKids: "Scratch, and then move onto python",
     java:"Java",
     c:"C",
     cPlusPlus:"C++",
@@ -139,5 +140,4 @@ export const results = {
     ruby: "Ruby",
     php:"PHP",
     objectiveC:"Objective-C",
-
 }
