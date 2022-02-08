@@ -25,8 +25,12 @@ function OptionsContainer(props) {
                 jobOrStartUp ? changeQuestion(choice[0]) : changeQuestion(choice[2]);
                 break;
             case "Yes":
+                if (currentIndex === '2'){
                 setJobOrStartUp(false);
                 changeQuestion(choice[0]);
+                } else{
+                    changeQuestion(choice);
+                }
                 break;
             default:
                 changeQuestion(choice);
