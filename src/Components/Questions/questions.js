@@ -133,7 +133,7 @@ export const results = {
     python: "Python",
     pythonKids: "Scratch, and then move onto python",
     java:"Java",
-    c:"C",
+    C:"C",
     cPlusPlus:"C++",
     javaScript: "JavaScript",
     cSharp:"C#",
