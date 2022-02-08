@@ -1,5 +1,4 @@
-import React, {useEffect, useState} from "react";
-import MessageBox from "../MessageBox/MessageBox";
+import React from "react";
 import {results} from '../Questions/questions';
 
 function Results(props) {

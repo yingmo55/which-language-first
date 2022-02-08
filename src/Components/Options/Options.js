@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import './Options.css';
 
 function Options(props) {
@@ -10,8 +10,7 @@ function Options(props) {
                 key={index}
                 id={index}
                 value={nextQuestion[index]}
-                onClick={props.onClick} >{option}</button>
-        )
+                onClick={props.onClick} >{option}</button>)
 
     return (
     <>
