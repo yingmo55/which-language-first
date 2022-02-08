@@ -21,7 +21,9 @@ const firstMessage = (
 );
 
 const startQuizButton = (
-  <button style={styles.zIndex} onClick={handleChange}>
+  <button id="startQuiz"
+          style={styles.buttonStyle} 
+          onClick={handleChange}>
   Click here to start Quiz
   </button>
 );
