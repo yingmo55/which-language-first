@@ -18,8 +18,8 @@ function OptionsContainer(props) {
                 setJobOrStartUp(true);
                 break;
             case "I have a Startup idea!":
-                changeQuestion(choice[0])
-                setJobOrStartUp(false)
+                changeQuestion(choice[0]);
+                setJobOrStartUp(false);
                 break;
             case "web": 
                 jobOrStartUp ? changeQuestion(choice[0]) : changeQuestion(choice[2]);
@@ -40,7 +40,6 @@ function OptionsContainer(props) {
     <Options options={options}
              nextQuestions={nextQuestions}
              onClick={changeIndex}/>
-
     )
 }
 

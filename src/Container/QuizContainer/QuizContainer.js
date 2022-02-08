@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import OptionsContainer from "../../Container/OptionsContainer/OptionsContainer";
 import {quizQuestions} from '../../Components/Questions/questions';
 import Results from "../../Components/Results/Results";
@@ -22,10 +22,6 @@ function QuizContainer(props) {
     const showFinalResult = (value) => {
         setResult(value)
     }
-
-    useEffect(()=> {
-        question = <h2> {quizQuestions[currentQuestion].question} </h2>
-    }, [currentQuestion]);
 
     let quiz = (
         <>
