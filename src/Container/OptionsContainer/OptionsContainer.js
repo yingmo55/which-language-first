@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 import Options from "../../Components/Options/Options";
+import { getRandomAnswer } from "../../Util";
 
 function OptionsContainer(props) {
     const [ jobOrStartUp, setJobOrStartUp ] = useState(null); // job: true startup: false
@@ -32,6 +33,9 @@ function OptionsContainer(props) {
                     changeQuestion(choice);
                 }
                 break;
+            case "I don't know, just pick one for me":
+              changeQuestion(getRandomAnswer())
+              break;
             default:
                 changeQuestion(choice);
                 break;
