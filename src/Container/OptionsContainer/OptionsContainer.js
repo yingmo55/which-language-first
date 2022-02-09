@@ -23,6 +23,7 @@ function OptionsContainer(props) {
                 setJobOrStartUp(false);
                 break;
             case "web": 
+            console.log(option, "line 27")
                 jobOrStartUp ? changeQuestion(choice[0]) : changeQuestion(choice[2]);
                 break;
             case "Yes":
