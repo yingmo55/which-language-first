@@ -2,7 +2,7 @@ import React from "react";
 import {results} from '../Questions/questions';
 
 function Results(props) {
-    const result = results[props.result] || null;
+    const result = results[props.result] || props.result;
     const styles = {
         fontSize: '2rem'
     }
