@@ -1,9 +1,13 @@
-h1, h2, h3{
-  font-family: 'B612 Mono', monospace;
+h1,
+h2,
+h3 {
+  font-family: "B612 Mono", monospace;
 }
 
-p, button, a {
-  font-family: 'Noto Sans', sans-serif;
+p,
+button,
+a {
+  font-family: "Noto Sans", sans-serif;
 }
 
 .App {
@@ -22,19 +26,21 @@ p, button, a {
 h1 {
   text-align: center;
   font-size: 2.5rem;
-  font-family: 'B612 Mono', monospace;
+  font-family: "B612 Mono", monospace;
 }
 
 h2 {
   font-size: 2rem;
 }
 
-#startQuiz:hover {
+#startQuiz:hover,
+#resetButton:hover {
   background-color: rgb(96, 196, 166);
   color: white;
 }
 
-#startQuiz:active {
+#startQuiz:active,
+#resetButton:active {
   background-color: rgb(67, 100, 150);
   color: white;
 }
