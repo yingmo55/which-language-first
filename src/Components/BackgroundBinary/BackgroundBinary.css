@@ -1,24 +1,24 @@
 .binary-background {
-    min-width: 420px;
+    min-width: 390px;
     height: 100vh;
     display: inline-flex;
     overflow: hidden;
 }
 
 .binary {
-    filter: blur(3px);
+    opacity: 90%;
+    filter: blur(2px);
     font-size: 30px;
-    text-align: center;
     z-index: 1;
-    color: #011826;
-    display: flex;
     width: 10px;
-    max-height: 100%;
+    max-height: 100vh;
     padding: 5px;
-    margin: 0 6px;
-    background:linear-gradient(to bottom, #011826, #06414e,  #048ABF, #80e6f1) no-repeat;
-    -webkit-text-fill-color: transparent;
+    margin: 0 5px;
+    margin: 0 5px;
+    background: linear-gradient(to bottom,#06414e, #048ABF, #80e6f1) no-repeat;
     background-clip: text;
-    -webkit-background-clip: text;
-    overflow: hidden;
+    color: transparent;
+    -webkit-text: transparent;
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
 }

@@ -19,7 +19,7 @@ function Background() {
         })
       }, [screenWidth])
 
-    const numOfRender = Math.floor(width / 420) + 1;
+    const numOfRender = Math.floor(width / 390) + 1;
     let backgroundArray = [];
     for (let i=0; i < numOfRender; i++){
         backgroundArray.push(<BackgroundBinary key={i} />);
@@ -28,7 +28,7 @@ function Background() {
 
     return(
     <div id='mainBG'>
-        <div className='background1' ref={ref}>
+        <div className='background1' ref={ref} role="presentation">
         <div id='overlay'></div>
         {background}
         </div>
