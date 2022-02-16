@@ -14,9 +14,9 @@ const titleH1 = (
 
 const firstMessage = (
   <>
-  <p>Interested in programming, but you don't know which language to learn first?</p>
-  <p>Based on <a href='http://carlcheo.com/startcoding'> this flowchart from Carlcheo.com</a> , this quiz may give you an idea of what language to learn based on your interests!</p>
-  <p>Notice: the original guide was written in 2014, some information may be out of date. It can still be a good reference, however.</p>
+  <p>Interested in programming, but don't know which language to learn first?</p>
+  <p>Based on <a href='http://carlcheo.com/startcoding'> this flowchart from Carlcheo.com</a>, this quiz may give you an idea of which language to learn based on your interests!</p>
+  <p>Notice: the original guide was written in 2014, some information may be out of date.</p>
   </>
 );
 
