@@ -3,6 +3,7 @@ import "./App.css";
 import Background from "../Background/Background";
 import FirstPage from "../FirstPage/FirstPage";
 import QuizContainer from "../../Container/QuizContainer/QuizContainer";
+import Footer from "../Footer/Footer";
 
 function App() {
   const [isStartQuiz, setIsStartQuiz] = useState(false);
@@ -22,6 +23,7 @@ function App() {
       ) : (
         <QuizContainer handleReset={handleReset} />
       )}
+      <Footer />
       <Background />
     </div>
   );
