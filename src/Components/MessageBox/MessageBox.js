@@ -4,7 +4,7 @@ import './MessageBox.css';
 function MessageBox(props) {
     return(
         <div className='message' style={props.style}>
-            <p>test</p>
+            {props.children}
         </div>
     )
 }

@@ -1,0 +1,20 @@
+.options {
+    background-color: rgb(18, 66, 66);
+    border: 1.5px solid gold;
+    margin: 10px;
+    padding: 12px;
+    width: 90%;
+    color: whitesmoke;
+    border-radius: 10px;
+}
+
+.options:hover {
+    cursor: pointer;
+    background-color: rgb(114, 183, 204);
+    color: black;
+}
+
+.options:active {
+    background-color: rgb(16, 86, 107);
+    color: black;
+}

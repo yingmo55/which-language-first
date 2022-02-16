@@ -1,6 +1,7 @@
 .mainBG{
     height: 100vh;
     overflow: hidden;
+    background-color: rgb(5, 5, 5);
 }
 
 #overlay {

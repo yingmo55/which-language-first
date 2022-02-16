@@ -1,27 +1,35 @@
-import React from 'react';
-import './App.css';
-import Background from '../Background/Background';
-import MessageBox from '../MessageBox/MessageBox';
-import Button from '../Button/Button';
-
+import React, { useState } from "react";
+import "./App.css";
+import Background from "../Background/Background";
+import FirstPage from "../FirstPage/FirstPage";
+import QuizContainer from "../../Container/QuizContainer/QuizContainer";
 
 function App() {
+  const [isStartQuiz, setIsStartQuiz] = useState(false);
 
-  const componentMargin = {
-    margin: "10px 10px",
-  }
+  const handleChange = () => {
+    setIsStartQuiz(true);
+  };
+
+  const handleReset = () => {
+    setIsStartQuiz(false);
+  };
 
   return (
     <div className="App">
-      <h1>Which Programming Language <br></br>
-        Should I Learn First?</h1>
-      <MessageBox style={componentMargin} />
-      <Button text='test' style={componentMargin}/>
+      {!isStartQuiz ? (
+        <FirstPage handleChange={handleChange} />
+      ) : (
+        <QuizContainer handleReset={handleReset} />
+      )}
       <Background />
     </div>
   );
 }
+/* 
+    {!isStartQuiz && <FirstPage isStartQuiz={handleChange}/>}
+    {isStartQuiz && <Quiz />}
 
-
+*/
 
 export default App;
