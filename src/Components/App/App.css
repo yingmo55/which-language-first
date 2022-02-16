@@ -9,7 +9,19 @@ p,
 button,
 a {
   font-family: "Noto Sans", sans-serif;
-  margin: 7px;
+}
+
+a{
+  color: rgb(255, 230, 147);
+  
+}
+
+a:hover{
+  color: rgb(255, 164, 45);
+}
+
+a:active {
+  background-color: beige;
 }
 
 .App {
