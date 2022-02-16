@@ -12,6 +12,19 @@ a {
   margin: 7px;
 }
 
+a{
+  color: rgb(255, 230, 147);
+  
+}
+
+a:hover{
+  color: rgb(255, 164, 45);
+}
+
+a:active {
+  background-color: beige;
+}
+
 .App {
   text-align: center;
   background-color: rgb(5, 5, 5);

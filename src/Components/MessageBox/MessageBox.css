@@ -2,7 +2,7 @@
     min-width: min(60%, 70vw);
     min-height: 30vh;
     padding: 20px;
-    background-color: rgb(8, 102, 102);
+    background-color: rgb(0, 70, 70);
     z-index: 3;
     opacity: 90%;
     display: flex;
