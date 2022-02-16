@@ -7,7 +7,7 @@ const handleChange = props.handleChange;
 
 
 const titleH1 = (
-  <h1 style={styles.zIndex}>Which Programming Language <br></br>
+  <h1 style={styles.zIndex}>Which <br/>Programming Language <br/>
   Should I Learn First?</h1>
   );
 
@@ -30,7 +30,7 @@ const startQuizButton = (
 
 
 return (
-  <div className="App">
+  <div className='firstPage' style={styles.zIndex}>
     {titleH1}
     <MessageBox style={styles.componentMargin}>
       {firstMessage}

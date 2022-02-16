@@ -1,10 +1,10 @@
 .message {
-    width: 70vw;
+    min-width: min(60%, 70vw);
     min-height: 30vh;
     padding: 20px;
     background-color: rgb(8, 102, 102);
     z-index: 3;
-    opacity: 95%;
+    opacity: 90%;
     display: flex;
     flex-flow: column;
     justify-content: center;
