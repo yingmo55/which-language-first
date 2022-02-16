@@ -20,7 +20,8 @@
     top: 0;
     left: 0;
     max-height: 100vh;
-    max-width: 100vw;
-    display: inline-flex;
+    width: 100vw;
+    display: flex;
     overflow: hidden;
+    justify-content: center;
 }
