@@ -1,11 +1,6 @@
 const componentMargin = {
-    margin: "10px 10px",
-  }
-  
-const changeSize = {
-    width: '100vw',
-    height: '100vh'
-  }
+  margin: "7px",
+}
   
 const zIndex = {
     zIndex: 3,
@@ -20,4 +15,4 @@ const buttonStyle = {
   padding: 15,
 }
 
-export const styles = {componentMargin, changeSize, zIndex, buttonStyle}
+export const styles = {componentMargin, zIndex, buttonStyle}

@@ -2,12 +2,14 @@ h1,
 h2,
 h3 {
   font-family: "B612 Mono", monospace;
+  text-align: center;
 }
 
 p,
 button,
 a {
   font-family: "Noto Sans", sans-serif;
+  margin: 7px;
 }
 
 .App {
@@ -19,18 +21,15 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-h1 {
-  text-align: center;
-  font-size: 2.5rem;
-  font-family: "B612 Mono", monospace;
+h1{
+    font-size: calc(5px + 5vmin);
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.7rem;
 }
 
 #startQuiz:hover,
