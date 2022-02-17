@@ -83,6 +83,7 @@ Thanks to the following users for suggestions/helping with the issues:
 + Adjust Contrast for message box and text
 + Update Background binary
 + update README.md with contributors
++ Fix typos
 
 ### 2/7/22
 + Quiz is now functional
