@@ -1,10 +1,10 @@
 .message {
-    min-width: min(60%, 70vw);
+    width: 60vw;
     min-height: 30vh;
     padding: 20px;
-    background-color: rgb(0, 70, 70);
+    background-color: rgb(16, 96, 107);
     z-index: 3;
-    opacity: 90%;
+    opacity: 95%;
     display: flex;
     flex-flow: column;
     justify-content: center;
@@ -12,5 +12,9 @@
 }
 
 .message > p {
-    font-size: 1rem;
+    color: white;
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.8;
+    font-family: 'Lato', sans-serif;
 }
