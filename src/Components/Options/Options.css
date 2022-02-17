@@ -1,10 +1,11 @@
 .options {
-    background-color: rgb(18, 66, 66);
-    border: 1.5px solid gold;
+    background-color: rgb(6, 73, 88);
+    border: 1.8px solid rgb(255, 183, 0);
     margin: 7px;
     padding: 12px;
     width: 90%;
-    color: whitesmoke;
+    color: white;
+    font-size: 18px;
     border-radius: 10px;
 }
 
@@ -15,6 +16,6 @@
 }
 
 .options:active {
-    background-color: rgb(16, 86, 107);
-    color: black;
+    background-color: rgb(9, 50, 65);
+    color: white;
 }
