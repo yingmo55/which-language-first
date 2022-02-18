@@ -34,7 +34,7 @@ To navigate using the keyboard, use the <kbd>tab</kbd> key to highlight the choi
 
 ### For Using the Quiz Components:
 #### First page:
-To change the first page, alter the corrisponding JSX elements in the first page (located at `./src/Components/FirstPage/FirstPage.js`) 
+To change the first page, alter the corresponding JSX elements on the first page (located at `./src/Components/FirstPage/FirstPage.js`) 
 
 #### Questions:  
 In `./src/Questions/Questions.js`, edit the values of `questions` keys, and add/delete objects as needed. If you have choices that affect the options of a question, adjust the switch case in `./src/Container/OptionsContainer/OptionsContainer.js` accordingly.
@@ -75,7 +75,7 @@ While building the quiz, I had two options: 1) use callback functions within fun
     }
 
 The first method was easier to code, but I chose the second method for these reasons:
-1. Separation of concerns. By separating the texts and functions, I can debug the function and adjusting the text separately.
+1. Separation of concerns. By seperating the texts and functions, I can debug the function and adjusting the text seperately.
 2. Reusability. If I want to build a quiz in React again, I can take the functions and reuse them following the object structure and adjust it as needed.
 
 Lastly, an edge case caused one of the results to display properly, and it was unknown until a user reported the bug. Automated testing may prevent this from happening, and in the future, I will look into automated testing for sites created with React.
@@ -103,11 +103,10 @@ Thanks to the following users for suggestions/helping with the issues:
 + Adjust Contrast for message box and text
 + Update Background binary
 + update README.md with contributors
-+ Fix typos
 
 ### 2/7/22
 + Quiz is now functional
-+ Adjust styling
++ Adjsut styling
  
 ### 1/30/22
 + Began project
