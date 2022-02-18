@@ -75,7 +75,7 @@ While building the quiz, I had two options: 1) use callback functions within fun
     }
 
 The first method was easier to code, but I chose the second method for these reasons:
-1. Separation of concerns. By seperating the texts and functions, I can debug the function and adjusting the text seperately.
+1. Separation of concerns. By separating the texts and functions, I can debug the function and adjusting the text separately.
 2. Reusability. If I want to build a quiz in React again, I can take the functions and reuse them following the object structure and adjust it as needed.
 
 Lastly, an edge case caused one of the results to display properly, and it was unknown until a user reported the bug. Automated testing may prevent this from happening, and in the future, I will look into automated testing for sites created with React.
@@ -103,10 +103,11 @@ Thanks to the following users for suggestions/helping with the issues:
 + Adjust Contrast for message box and text
 + Update Background binary
 + update README.md with contributors
++ Fix typos
 
 ### 2/7/22
 + Quiz is now functional
-+ Adjsut styling
++ Adjust styling
  
 ### 1/30/22
 + Began project

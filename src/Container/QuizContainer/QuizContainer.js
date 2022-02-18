@@ -12,7 +12,6 @@ function QuizContainer(props) {
   const handleReset = props.handleReset;
 
   const changeQuestion = (value) => {
-    console.log(`changeQuestion: ${value}`);
     if (isNaN(parseInt(value))) {
       setResult(value);
     } else {

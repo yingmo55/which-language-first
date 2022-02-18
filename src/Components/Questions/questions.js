@@ -6,7 +6,7 @@ export const quizQuestions = [
                 "For my kids": "pythonKids",
                 "I don't know, just pick one for me": "python",
                 "Just for fun": 2,
-                "I'm inerested": 2,
+                "I'm interested": 2,
                 "Improve myself": 2,
                 "Make money": 1
             }
@@ -29,12 +29,12 @@ export const quizQuestions = [
         },
         {
             questionIndex: 3,
-            question: "I preferto learn things...",
+            question: "I prefer to learn things...",
             choices: {
                 "The easy Way": "python",
                 "The best way": "python",
                 "The slightly harder way": 4,
-                "The really hard way (but eaiser to pick up other languages in the future)": "cPlusPlus"
+                "The really hard way (but easier to pick up other languages in the future)": "cPlusPlus"
             }
         },
         {
@@ -53,8 +53,8 @@ export const quizQuestions = [
                 "Enterprise": 12,
                 "mobile": 13,
                 "3D/Gaming": "cPlusPlus",
-                "I want to work for bigh tech companies": 6,
-                "Doesnt' matter, I just want $$$": "java"
+                "I want to work for big tech companies": 6,
+                "Doesn't matter, I just want $$$": "java"
             }
         },
         {

@@ -1,16 +1,29 @@
+
+/* Fonts */
 h1,
 h2,
 h3 {
-  font-family: "B612 Mono", monospace;
+  font-family: 'Source Code Pro', monospace;
   text-align: center;
 }
 
-p,
-button,
-a {
-  font-family: "Noto Sans", sans-serif;
+h1{
+  font-size: calc(5px + 5vmin);
+  font-weight: 600;
 }
 
+h2 {
+font-size: 1.7rem;
+font-weight: 500;
+}
+
+button,
+a {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* Link colors */
 a{
   color: rgb(255, 230, 147);
   
@@ -24,25 +37,7 @@ a:active {
   background-color: beige;
 }
 
-.App {
-  text-align: center;
-  background-color: rgb(5, 5, 5);
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  color: white;
-}
-
-h1{
-    font-size: calc(5px + 5vmin);
-}
-
-h2 {
-  font-size: 1.7rem;
-}
+/*Button*/
 
 #startQuiz:hover,
 #resetButton:hover {
@@ -53,5 +48,18 @@ h2 {
 #startQuiz:active,
 #resetButton:active {
   background-color: rgb(67, 100, 150);
+  color: white;
+}
+
+/*App Container*/
+.App {
+  text-align: center;
+  background-color: rgb(5, 5, 5);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   color: white;
 }

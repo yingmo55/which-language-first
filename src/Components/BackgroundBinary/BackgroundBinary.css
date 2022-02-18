@@ -8,6 +8,7 @@
 .binary {
     opacity: 90%;
     filter: blur(2px);
+    font-family: 'Noto Sans', sans-serif;
     font-size: 30px;
     z-index: 1;
     width: 10px;
