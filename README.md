@@ -6,6 +6,11 @@
 - [Which Programming Language Should I Learn First?](#which-programming-language-should-i-learn-first)
   - [Table of Contents](#table-of-contents)
   - [Instruction](#instruction)
+    - [For the Website:](#for-the-website)
+    - [For Using the Quiz Components:](#for-using-the-quiz-components)
+      - [First page:](#first-page)
+      - [Questions:](#questions)
+      - [Choices:](#choices)
   - [About](#about)
     - [Language & Framework Used](#language--framework-used)
     - [Why Did I Make This](#why-did-i-make-this)
@@ -14,6 +19,7 @@
   - [🗺 Roadmap](#-roadmap)
   - [👷‍♂️ Contributors](#️-contributors)
   - [📃 Change Logs](#-change-logs)
+    - [2/17/22](#21722)
     - [2/16/22](#21622)
     - [2/7/22](#2722)
     - [1/30/22](#13022)
@@ -22,8 +28,19 @@
 <hr />
 
 ## Instruction
+### For the Website:
 At the website, click the button as prompted.  
 To navigate using the keyboard, use the <kbd>tab</kbd> key to highlight the choices and <kbd>shift</kbd> + <kbd>tab</kbd> to go back to the previous option.
+
+### For Using the Quiz Components:
+#### First page:
+To change the first page, alter the corrisponding JSX elements in the first page (located at `./src/Components/FirstPage/FirstPage.js`) 
+
+#### Questions:  
+In `./src/Questions/Questions.js`, edit the values of `questions` keys, and add/delete objects as needed. If you have choices that affect the options of a question, adjust the switch case in `./src/Container/OptionsContainer/OptionsContainer.js` accordingly.
+
+#### Choices: 
+For choices, set the keys to the options and the value to the index of the next question. For choices that lead to the final result, set the value to the result, and then change the key and value pairs in the `result` object accordingly. The key should be the same as the value of the question, and set the value to the message that will display to the users.
 
 ## About
 An interactive quiz about picking the first programming language built in React 
@@ -77,6 +94,9 @@ Thanks to the following users for suggestions/helping with the issues:
   +  added [the reset button](https://github.com/yingmo55/which-language-first/issues/5)
 
 ## 📃 Change Logs
+### 2/17/22
++ Update README.md
+
 ### 2/16/22
 **Style Changes**  
 + Fix issue where background does not show on iOS devices /safari
